@@ -32,7 +32,42 @@ This project allows users to record, categorize, and analyze their daily expense
 ---
 
 ## ⚙️ Installation & Setup
+2️⃣ Setup Backend
+cd backend
+npm install
 
+
+Create a .env file inside the backend folder:
+
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+
+
+Run the backend server:
+
+npm start
+
+
+The backend should now be running at
+👉 http://localhost:5000
+
+🎨 3️⃣ Setup Frontend
+cd frontend
+npm install
+
+
+Start the React app:
+
+npm run dev
+
+
+The frontend should now be running at:
+👉 http://localhost:5173
+ (if using Vite)
+or
+👉 http://localhost:3000
+ (if using Create React App)
 ### 🗂 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/your-username/Expense-Tracker-WebTech-Project.git
